@@ -94,11 +94,13 @@ a {
 }
 
 .inputs-section input {
+  box-sizing: border-box;
   border: 1px solid #e5e7eb;
   border-radius: 4px;
   padding: 4px 8px;
   width: 100%;
   font-size: 1rem;
+  margin-right: 32px;
 }
 
 .inputs-section h3 {
