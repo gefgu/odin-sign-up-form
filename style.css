@@ -108,3 +108,14 @@ a {
   font-size: 1rem;
 }
 
+p.log-in {
+  font-size: 1rem;
+  margin-top: 32px;
+}
+
+.log-in a {
+  color: #4c8423;
+  font-weight: bold;
+  text-decoration: none;
+}
+
