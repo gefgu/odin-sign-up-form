@@ -68,12 +68,17 @@ a {
 .text-section > p {
   font-size: 1.4rem;
   margin-left: var(--left-space);
+  margin-bottom: 8px;
+}
+
+.text-section p:first-child {
+  margin-top: 0;
 }
 
 .inputs-section {
   color: black;
   background-color: white;
-  margin-top: 64px;
+  margin-top: 32px;
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: var(--left-space);
