@@ -85,13 +85,26 @@ a {
   box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
+.inputs-section label {
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+
+.inputs-section input {
+  border: 1px solid #e5e7eb;
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: 100%;
+}
+
 .inputs-section h3 {
   margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .inputs > div {
   display: flex;
-  gap: 64px;
+  gap: 84px;
   margin-bottom: 18px;
 }
 
