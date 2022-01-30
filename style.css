@@ -56,4 +56,13 @@ a {
 .text-section {
   flex: 5;
   background-color: #f9fafb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 48px;
+  
+}
+
+.text-section > p {
+  font-size: 1.4rem;
 }
