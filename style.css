@@ -8,13 +8,30 @@ body {
   display: flex;
 }
 
+/* Image Section */
+
 .image-section {
   background-image: url("./leaf-image.jpg");
   background-size: cover;
   flex: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
+
+.attribution {
+  color: white;
+  text-align: center;
+  
+}
+
+a {
+  color: white;
+}
+
+/* Text Section */
 
 .text-section {
   flex: 5;
-  border: 1px solid red;
 }
+
