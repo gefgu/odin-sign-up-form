@@ -68,6 +68,7 @@ a {
 .text-section > p {
   font-size: 1.4rem;
   margin-left: var(--left-space);
+  font-weight: bold;
   max-width: 80%;
   margin-bottom: 8px;
 }
@@ -89,6 +90,7 @@ a {
 .inputs-section label {
   font-size: 0.7rem;
   letter-spacing: 0.1rem;
+  margin-bottom: 1px;
 }
 
 .inputs-section input {
@@ -100,6 +102,8 @@ a {
 }
 
 .inputs-section h3 {
+  font-size: 1.25rem;
+  font-weight: 400;
   margin-top: 0;
   margin-bottom: 24px;
 }
@@ -122,15 +126,16 @@ a {
   border: none;
   background-color: #596D48;
   padding: 12px 48px;
-  border-radius: 5px;
+  border-radius: 8px;
   box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   color: white;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 p.log-in {
+  font-weight: 400;
   font-size: 1rem;
   margin-top: 32px;
 }
