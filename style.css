@@ -106,7 +106,9 @@ a {
 
 .inputs > div {
   display: flex;
-  gap: 84px;
+  flex-wrap: wrap;
+  column-gap: 84px;
+  row-gap: 18px;
   margin-bottom: 18px;
 }
 
