@@ -1,3 +1,7 @@
+:root {
+  --left-space: 48px;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -63,7 +67,7 @@ a {
 
 .text-section > p {
   font-size: 1.4rem;
-  margin-left: 48px;
+  margin-left: var(--left-space);
 }
 
 .inputs-section {
@@ -72,7 +76,7 @@ a {
   margin-top: 64px;
   padding-top: 16px;
   padding-bottom: 16px;
-  padding-left: 48px;
+  padding-left: var(--left-space);
   box-shadow: 0 5px 5px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -91,7 +95,16 @@ a {
 }
 
 #create-account {
-  margin-left: 48px;
+  margin-left: var(--left-space);
   margin-top: 32px;
+  border: none;
+  background-color: #596D48;
+  padding: 12px 48px;
+  border-radius: 5px;
+  box-shadow: 2px 5px 5px 4px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  color: white;
+  font-weight: 700;
+  font-size: 1rem;
 }
 
