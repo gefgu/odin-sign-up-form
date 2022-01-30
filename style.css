@@ -8,14 +8,13 @@ body {
   display: flex;
 }
 
-.image-section, .text-section {
-  border: 1px solid red;
-}
-
 .image-section {
+  background-image: url("./leaf-image.jpg");
+  background-size: cover;
   flex: 3;
 }
 
 .text-section {
   flex: 5;
+  border: 1px solid red;
 }
