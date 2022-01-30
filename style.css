@@ -3,6 +3,10 @@ body {
   padding: 0;
 }
 
+* {
+  font-family: sans-serif;
+}
+
 .content {
   min-height: 100vh;
   display: flex;
@@ -17,16 +21,26 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-}
-
-.attribution {
   color: white;
   text-align: center;
-  
 }
 
 a {
   color: white;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-top: 20vh;
+  padding: 16px 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.banner img {
+  height: 150px;
 }
 
 /* Text Section */
@@ -34,4 +48,3 @@ a {
 .text-section {
   flex: 5;
 }
-
