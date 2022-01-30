@@ -1,10 +1,12 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 }
 
-* {
-  font-family: sans-serif;
+@font-face {
+  font-family: "Norse Bold";
+  src: url("./Norse-Bold.otf");
 }
 
 .content {
@@ -33,14 +35,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 2rem;
+  font-size: 6rem;
+  font-family: "Norse Bold";
   margin-top: 20vh;
-  padding: 16px 0;
+  padding: 8px 0;
   background-color: rgba(0, 0, 0, 0.4);
 }
 
 .banner img {
-  height: 150px;
+  height: 125px;
+}
+
+.banner h2{
+  margin: 0;
 }
 
 /* Text Section */
